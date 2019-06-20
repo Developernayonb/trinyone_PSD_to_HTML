@@ -1,0 +1,79 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.section_title p {
+    font-size: 18px;
+}
+.section2_title p {
+    font-size: 18px;
+}
+.newslater_icon i {
+    font-size: 30px;
+}
+ .service_contetnt h3 {
+    font-size: 17px;
+}
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.service_icon i {
+    margin-left: -20px;
+}
+ .service_contetnt p {
+    word-spacing: 0px;
+    letter-spacing: 0px;
+}
+.footer_content h6 {
+    margin-bottom: 10px;
+     letter-spacing: -1px;
+}
+ /*E.S.D*/
+  .slider_contnet h2 {
+    text-align: center;
+}
+ .slider_contnet h4 {
+    text-align: center;
+}
+ .slider_contnet p {
+    text-align: center;
+}
+ .slider_contnet i {
+    margin-right: -80px;
+    margin-left: 100px;
+}
+ .slider_contnet h2 {
+    font-size: 28px;
+}
+ .section_title h2 {
+    font-size: 28px;
+}
+ .section2_title h2 {
+    font-size: 28px;
+}
+  .service_contetnt h3 {
+    font-size: 17px;
+}
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+
+}
